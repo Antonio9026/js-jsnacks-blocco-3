@@ -13,6 +13,9 @@ let arrayNum = [];
 let sum = 0
 
 
+
+// ************ESERCIZIO SENZA CICLO***********
+
 // // creo costante per bottone genera 
 
 // const genera = document.querySelector(".genera")
@@ -42,6 +45,10 @@ let sum = 0
 //      alert("hai raggiunto la somma");
 //   }
 // });
+
+
+// **********ESERCIZIO CON CICLO*************
+
 // creo ciclo per chiedere ad utente numeri fincheè la somma dei numeri non raggiunge 50 
 
 for (let i = 0;  sum < 50; i++) {
@@ -52,9 +59,8 @@ for (let i = 0;  sum < 50; i++) {
      sum += inputUtente;
      console.log(sum);
      arrayNum.push(inputUtente);
-    
+    console.log( arrayNum);
   }
-
 };
 alert("hai raggiunto la somma");
 
